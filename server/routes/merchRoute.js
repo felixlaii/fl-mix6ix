@@ -3,16 +3,17 @@ const axios = require("axios");
 const fs = require("fs");
 
 
-let items = fs.readFileSync('./data/shopItem.json')
+let items = fs.readFileSync('./data/merch.json')
 items = JSON.parse(items);
 
-let ItemArray = items.map((item) => {
+let itemArray = items.map((item) => {
     let itemList = {
         id: item.id,
         image: item.image,
         name: item.name,
         price: item.price,
-        description: item.description
+        description: item.description,
+        materials: item.materials
     }
     return itemList
 })
