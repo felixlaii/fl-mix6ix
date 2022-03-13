@@ -8,11 +8,11 @@ kits = JSON.parse(kits);
 
 let kitArray = kits.map((kit) => {
     let kitList = {
-        id: kit.id,
-        image: kit.image,
-        name: kit.name,
-        price: kit.price,
-        description: kit.description
+        kitId: kit.id,
+        kitImage: kit.image,
+        kitName: kit.name,
+        kitPrice: kit.price,
+        kitDescription: kit.description
     }
     return kitList
 })
@@ -22,11 +22,11 @@ router.get('/', (req, res) => {
 });
 
 router.get('/:kitId', (req, res) => {
-    const kit = kits.find(kit => kit.id === req.params.kitId)
+    const kit = kits.find(kit => kit.kitId === req.params.kitId)
     if (!kit) {
         return res.status(404)
         .json({
-            errorMessage: `kit ${req.params.itemId} not found`
+            errorMessage: `kit ${req.params.kitId} not found`
         })
     }
     return res.json(kit)

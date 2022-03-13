@@ -1,16 +1,16 @@
 [
     {
-        "id": "1",
-        "image": "../public/lunar-cocktail-kit.jpeg",
-        "name": "mix6ix lunar new year cocktail kit",
-        "price": 85,
-        "description": "Introducing MIX6IX Lunar New Year Cocktail Kit. This celebratory, lunar new years collection of beverages is inspired by the boldness and fierceness of the tiger. With bursts of bright, fresh flavours and nods to traditional asian culture, all three cocktails will be sure to impress both the novice and cocktail connoisseurs. Each cocktail kit includes everything you need to create 3 beautiful craft cocktails. Simple add your favourite spirit! Recommended Spirits: Rum, Vodka and Whiskey (Kit does not include alcohol) *Serves up to 10 cocktails*"
+        "kitId": "1",
+        "kitImage": "../public/lunar-cocktail-kit.jpeg",
+        "kitName": "mix6ix lunar new year cocktail kit",
+        "kitPrice": 85,
+        "kitDescription": "Introducing MIX6IX Lunar New Year Cocktail Kit. This celebratory, lunar new years collection of beverages is inspired by the boldness and fierceness of the tiger. With bursts of bright, fresh flavours and nods to traditional asian culture, all three cocktails will be sure to impress both the novice and cocktail connoisseurs. Each cocktail kit includes everything you need to create 3 beautiful craft cocktails. Simple add your favourite spirit! Recommended Spirits: Rum, Vodka and Whiskey (Kit does not include alcohol) *Serves up to 10 cocktails*"
     },
     {
-        "id": "2",
-        "image": "../public/vday-cocktail-kit.jpeg",
-        "name": "mix6ix v(g)aletine's day cocktail kit",
-        "price": 85,
-        "description": "MIX6IX is back with a glowed-up V(G)altine's Day Cocktail Kit fit for a new year of feels. Whether you're spending it with that special someone, your gal pals or treating yourself, indulge in our curated craft cocktails kit. This kit includes 3 cocktails sure to make anyone swoon. Simple add your favourite spirit! Recommended Spirits: Tequila, Gin and Whiskey (Kit does not include alochol) *Serves up to 10 cocktails*"
+        "kitId": "2",
+        "kitImage": "../public/vday-cocktail-kit.jpeg",
+        "kitName": "mix6ix v(g)aletine's day cocktail kit",
+        "kitPrice": 85,
+        "kitDescription": "MIX6IX is back with a glowed-up V(G)altine's Day Cocktail Kit fit for a new year of feels. Whether you're spending it with that special someone, your gal pals or treating yourself, indulge in our curated craft cocktails kit. This kit includes 3 cocktails sure to make anyone swoon. Simple add your favourite spirit! Recommended Spirits: Tequila, Gin and Whiskey (Kit does not include alochol) *Serves up to 10 cocktails*"
     }
 ]
